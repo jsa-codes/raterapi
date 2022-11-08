@@ -27,4 +27,8 @@ class Migration(migrations.Migration):
             name='game',
             field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='reviews', to='raterapi.game'),
         ),
+<<<<<<< HEAD
     ]
+=======
+    ]
+>>>>>>> 7fbab2b (Created remaining needed files and updated files based on GitHub files)

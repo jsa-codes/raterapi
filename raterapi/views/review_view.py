@@ -27,7 +27,6 @@ class ReviewView(ViewSet):
 
     def list(self, request):
         """Handle GET requests to get all reviews
-
         Returns:
             Response -- JSON serialized list of reviews
         """
@@ -37,7 +36,6 @@ class ReviewView(ViewSet):
 
     def create(self, request):
         """Handle POST operations
-
         Returns
             Response -- JSON serialized game instance
         """

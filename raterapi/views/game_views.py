@@ -31,7 +31,6 @@ class GameView(ViewSet):
     # get all games
     def list(self, request):
         """Handle GET requests to get all games
-
         Returns:
             Response -- JSON serialized list of games
         """
@@ -44,7 +43,6 @@ class GameView(ViewSet):
     # create a game
     def create(self, request):
         """Handle POST operations
-
         Returns
             Response -- JSON serialized game instance
         """

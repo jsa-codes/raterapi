@@ -24,7 +24,6 @@ class CategoryView(ViewSet):
 
     def list(self, request):
         """Handle GET requests to get all categorys
-
         Returns:
             Response -- JSON serialized list of categorys
         """

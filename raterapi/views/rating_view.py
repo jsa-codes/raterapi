@@ -27,7 +27,10 @@ class RatingView(ViewSet):
 
     def list(self, request):
         """Handle GET requests to get all reviews
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7fbab2b (Created remaining needed files and updated files based on GitHub files)
         Returns:
             Response -- JSON serialized list of reviews
         """
@@ -37,7 +40,10 @@ class RatingView(ViewSet):
 
     def create(self, request):
         """Handle POST operations
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7fbab2b (Created remaining needed files and updated files based on GitHub files)
         Returns
             Response -- JSON serialized game instance
         """
@@ -86,4 +92,8 @@ class RatingSerializer(serializers.ModelSerializer):
     """
     class Meta:
         model = GameRating
+<<<<<<< HEAD
         fields = ('id', 'user', 'game', 'rating', 'created_on',)
+=======
+        fields = ('id', 'user', 'game', 'rating', 'created_on',)
+>>>>>>> 7fbab2b (Created remaining needed files and updated files based on GitHub files)
